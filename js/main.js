@@ -105,7 +105,7 @@ function getHome() {
     }
     for (let i = 0; i < userContainer.length; i++) {
         if (userContainer[i].mail.toLowerCase() == mailLogin.value.toLowerCase() && userContainer[i].pass.toLowerCase() == passLogin.value.toLowerCase() ) {
-            window.location.href = "file:///D:/Web/hendy/5-%20Login/home.html";
+            window.location.href = "https://hendy022.github.io/home.html";
             document.getElementById("homeName").innerHTML=`Welcome${userContainer[i].name}`
         }else
         {
@@ -120,6 +120,6 @@ function getHome() {
 
 function getLogin() 
 {
-    window.location.href = "file:///D:/Web/hendy/5-%20Login/index.html";
+    window.location.href = "https://hendy022.github.io/index.html";
 
 }
